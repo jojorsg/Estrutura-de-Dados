@@ -15,7 +15,7 @@ public class ProgramacaoDinamica {
 
     public static long encontrarFatorial(int n) {
         if (elementosFat[n] == -1) {
-            if (n <+ 1) {
+            if (n < 1) {
                 elementosFat[n] = n;
             } else {
                 elementosFat[n] = encontrarFatorial(n) * encontrarFatorial(n-1);

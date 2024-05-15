@@ -3,7 +3,7 @@ package recursividade;
 public class Recursao {
 
     public static int encontrarFatorial(int n) {
-        if(n <= 1) {
+        if(n < 1) {
             return n;
         }
         return encontrarFatorial(n) * encontrarFatorial(n-1);
